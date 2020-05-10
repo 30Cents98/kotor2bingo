@@ -182,3 +182,5 @@ bingoList[18] = [
   { name: "Master Duel Strike", types: ["Feat"] },
   { name: "At Least 25 in All Saves", types: ["Character"] },
 ];
+
+$(function () { bingo(bingoList, 5, bingoListVersion); });
