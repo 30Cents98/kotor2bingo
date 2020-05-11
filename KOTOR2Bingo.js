@@ -243,12 +243,12 @@ bingoList[24] = [
   { name: "Threaten Opo Chano", types: ["Quests"] },
 ];
 bingoList[25] = [
-  { name: "All 12 ", types: ["Collect","Gloves"] },
-  { name: "Clear All 4 Sith Strongholds", types: ["Clear"] },
-  { name: "Kill All 28 Mandalorians", types: ["Mandos", "Geno", "Bounty"] },
-  { name: "All 15 Lightsaber Power Crystals", types: ["Crystal", "Collect"] },
-  { name: "Complete All 9 Companion Sidequests", types: ["Party","Zaalbar","Juhani","Mission","Jolee","HK","T3"] },
-  { name: "Clear the Warrior Rakatan Compound", types: ["Lehon", "Clear"] },
-  { name: "Reach the Star Forge", types: [] },
-  { name: "Force Zaalbar to Kill Mission", types: ["Lehon"] },
+  { name: "Heavy Armor Feat", types: ["Feat"] },
+  { name: "Master Force Scream", types: ["Force Power"] },
+  { name: "Master Force Body", types: ["Mandos", "Geno", "Bounty"] },
+  { name: "Weapon Specilization in Melee Weapons", types: ["Feat"] },
+  { name: "Lose Influence from Kreia 3 times", types: ["Kreia"] },
+  { name: "Clear the Sith Tomb on Korriban", types: ["Korriban"] },
+  { name: "Reach Malachor", types: [] },
+  { name: "Stealth Run", types: ["Lehon"] },
 $(function () { bingo(bingoList, 5, bingoListVersion); });
