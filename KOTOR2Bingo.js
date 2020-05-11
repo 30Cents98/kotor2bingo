@@ -251,4 +251,6 @@ bingoList[25] = [
   { name: "Clear the Sith Tomb on Korriban", types: ["Korriban"] },
   { name: "Reach Malachor", types: [] },
   { name: "Stealth Run", types: ["Lehon"] },
+];
+
 $(function () { bingo(bingoList, 5, bingoListVersion); });
