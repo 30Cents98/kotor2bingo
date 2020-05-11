@@ -170,7 +170,7 @@ bingoList[17] = [
   { name: "Give a starport visa to the mom and her children", types: ["Quest"] },
   { name: "Complete \"Mass Shadow Generator\"", types: ["Malachor] },
   { name: "250 Maximum Force Points", types: ["Character"] },
-  { name: "Allow all the sith soldiers on board, and then kill them all", types: ["Peragus"] },
+  { name: "Allow all the sith soldiers on board and then kill them all", types: ["Peragus"] },
 ];
 bingoList[18] = [
   { name: "40 Points in All Skills", types: ["Character"] },
@@ -182,5 +182,73 @@ bingoList[18] = [
   { name: "Master Duel Strike", types: ["Feat"] },
   { name: "At Least 25 in All Saves", types: ["Character"] },
 ];
-
+bingoList[19] = [
+  { name: "Clear out the Ravager", types: ["Ravager"] },
+  { name: "Solari Crystal", types: ["Crystal"] },
+  { name: "Kill all of G0-T0's assassins", types: ["Character"] },
+  { name: "Resist the dark side pads in Freedon Nadd Tomb", types: ["Dxun] },
+  { name: "Give into the dark side pads in Freedon Nadd Tomb", types: ["Dxun"] },
+  { name: "Three Light Alignment-Restricted Items", types: ["AlignedItem"] },
+  { name: "Five Alignment-Restricted Items", types: ["Tombs","AlignedItem"] },
+  { name: "Clear out the Ebon Hawk of the Red Eclipse", types: ["Nar Shaddaa"] },
+];
+bingoList[20] = [
+  { name: "Convince Talia to let Vaklu live", types: ["Onderon"] },
+  { name: "Open the locked room in the palace", types: ["Onderon"] },
+  { name: "Kill Darth Traya", types: ["Malachor"] },
+  { name: "Verpine Prototype Shield", types: ["Armband","Verpine", "Leviathan"] },
+  { name: "Convince Luxa to kill Doton Het with her Gamorreans" types: ["Telos"] },
+  { name: "Convince Nallek to give his gun to you", types: ["Dantooine"] },  
+  { name: "Return Akkere's Hydrospinner", types: ["Dantooine"] },
+  { name: "Kill all Serroco thugs", types: ["Nar Shaddaa"] },  
+];
+bingoList[21] = [
+  { name: "Attune your crystal 3 times", types: ["Kreia"] },
+  { name: "Have Bao-Dur construct a lightsaber", types: ["Lightsaber","Bao-dur"] },
+  { name: "Open the Rebuilt Jedi Enclave", types: ["Dantooine"] },
+  { name: "Kill Nilhus, Sion, Malak, Revan and Traya", types: ["Bosses"] },
+  { name: "Lie to Lootra's Wife that the way is clear", types: ["Dark Side"] },
+  { name: "Reunite Lootra and his wife", types: ["Quest"] },
+  { name: "Complete all refugee quests", types: ["Quest"] },
+  { name: "Return IT-31 to the shop", types: ["Quest"] },    
+];
+bingoList[22] = [
+  { name: "Have all party members be a jedi", types: ["Party"] },
+  { name: "Sucessfully win the last Echani round", types: ["Leviathan", "Clear"] },
+  { name: "10 different jedi robes", types: ["Robes"] },
+  { name: "Fully repair the Ebon Hawk", types: ["Quests"] },  
+  { name: "Level 5 Prestige Class", types: ["Character"] },
+  { name: "1 of each grenade", types: [] },
+  { name: "Proton Core from missile", types: ["Ravager"] },
+  { name: "Kill 40 Unique Enemies", types: ["Bounty", "Bosses"] },
+];
+bingoList[23] = [
+  { name: "Lie to Batono and then have him killed", types: ["Quests"] },
+  { name: "Download the Oribital Drift Charts", types: ["Peragus"] },
+  { name: "Complete all bounty quests", types: ["Credits", "Colors"] },
+  { name: "All 6 Stealth Generators", types: ["Credits", "Collect", "Belts"] },
+  { name: "Complete \"Jedi Entombed"\" ", types: ["Korriban"] },
+  { name: "Kill everyone in the flop house", types: ["Nar Shaddaa"] },
+  { name: "Have Manalore meet up with the manalorians on Nar Shaddaa", types: ["Nar Shaddaa"] },
+  { name: "Re-orgnaize the Pylon order", types: [] },  
+];
+bingoList[24] = [
+  { name: "Solve the mystery for the Bith scientist", types: ["Nar Shaddaa"] },
+  { name: "Safely escort Batono", types: ["Character","Alignment","Bounty"] },
+  { name: "CNS Strength Enhancer", types: ["Equipment"] },
+  { name: "Complete \"Trouble with Cannoks"\", types: ["Dxun"] },
+  { name: "Sith Power Gauntlets", types: ["Gloves"] },
+  { name: "Get the MC's personal armband", types: ["Item"] },
+  { name: "Manadalorian Power Shield", types: ["Item"] },
+  { name: "Threaten Opo Chano", types: ["Quests"] },
+];
+bingoList[25] = [
+  { name: "All 12 ", types: ["Collect","Gloves"] },
+  { name: "Clear All 4 Sith Strongholds", types: ["Clear"] },
+  { name: "Kill All 28 Mandalorians", types: ["Mandos", "Geno", "Bounty"] },
+  { name: "All 15 Lightsaber Power Crystals", types: ["Crystal", "Collect"] },
+  { name: "Complete All 9 Companion Sidequests", types: ["Party","Zaalbar","Juhani","Mission","Jolee","HK","T3"] },
+  { name: "Clear the Warrior Rakatan Compound", types: ["Lehon", "Clear"] },
+  { name: "Reach the Star Forge", types: [] },
+  { name: "Force Zaalbar to Kill Mission", types: ["Lehon"] },
 $(function () { bingo(bingoList, 5, bingoListVersion); });
