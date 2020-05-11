@@ -226,7 +226,7 @@ bingoList[23] = [
   { name: "Lie to Batono and then have him killed", types: ["Quests"] },
   { name: "Download the Oribital Drift Charts", types: ["Peragus"] },
   { name: "Complete all bounty quests", types: ["Credits", "Colors"] },
-  { name: "All 6 Stealth Generators", types: ["Credits", "Collect", "Belts"] },
+  { name: "6 Stealth Generators", types: ["Credits", "Collect", "Belts"] },
   { name: "Complete \"Jedi Entombed"\" ", types: ["Korriban"] },
   { name: "Kill everyone in the flop house", types: ["Nar Shaddaa"] },
   { name: "Have Manalore meet up with the manalorians on Nar Shaddaa", types: ["Nar Shaddaa"] },
